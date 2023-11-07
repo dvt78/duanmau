@@ -4,6 +4,7 @@ public class ThanhVien {
     private int matv;
     private String hoten;
     private String namsinh;
+    String themMoi;
 
     public ThanhVien(int matv, String hoten, String namsinh) {
         this.matv = matv;
