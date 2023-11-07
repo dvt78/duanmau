@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#CC1616"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:id="@+id/txtMaSach"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTenSach2"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtGiaThue"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMaLoai"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTenLoai"></TextView>
+        <ImageView
+            android:id="@+id/ivEditSach"
+            android:layout_width="50dp"
+            android:src="@drawable/baseline_mode_edit_24"
+            android:layout_height="40dp"></ImageView>
+
+        <ImageView
+            android:id="@+id/ivDelSach"
+            android:layout_width="50dp"
+            android:src="@drawable/baseline_delete_24"
+            android:layout_height="40dp"></ImageView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
